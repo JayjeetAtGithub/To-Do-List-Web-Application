@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+#container{
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    width: 360px;
+    margin: 100px auto 0px auto;
+    background: #f7f7f7;
+}
+h1{
+    background-color: #2980b9;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+img[src = "create.png"]
+{
+    float: right;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+li{
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    color: #666;
+    font-weight: 200;
+   
+    
+}
+li:nth-child(2n){
+    background-color: #f7f7f7;
+}
+input{
+    font-size: 18px;
+    border: 2px;
+    background-color: #f7f7f7;
+    border-color:dodgerblue;
+    height: 40px;
+    line-height: 40px;
+    width: inherit;
+    font-weight: 300;
+    color: darkslateblue;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    
+}
+input:focus{
+    background-color: white;
+    border: 2px solid dodgerblue;
+}
+span{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 10px;
+    display: inline-block;
+    width: 0px;
+    height: 40px;
+    visibility: hidden;
+    transition: linear;
+
+    
+}
+li:hover span{
+      visibility: visible; 
+    width: 25px;
+}
